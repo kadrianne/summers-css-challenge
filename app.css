@@ -86,7 +86,7 @@ main {
     justify-content: center;
 }
 
-img {
+.category {
     max-width: 100%;
 }
 
@@ -100,4 +100,26 @@ img {
     height: 100%; */
     position: absolute;
     background-color: rgba(0,0,0,.1)
+}
+
+footer {
+    margin-top: 75px;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    margin-right: 5px;
+}
+
+.icon {
+    margin: 5px;
+}
+
+.instagram {
+    width: 30px;
+    height: 30px;
+}
+
+.email {
+    width: 18px;
+    height: 18px;
 }
