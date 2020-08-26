@@ -86,18 +86,15 @@ main {
     justify-content: center;
 }
 
-.category-column {
-    overflow: auto;
-}
-
 .category-tile {
     margin: 17px;
     position: relative;
     display: inline-block;
 }
 
-.category {
+.category-image {
     max-width: 100%;
+    margin-bottom: -3px;
 }
 
 .image-overlay {
@@ -106,14 +103,14 @@ main {
     width: 100%;
     height: 100%;
     position: absolute;
-    background-color: rgba(0,0,0,.1)
+    background-color: rgba(0,0,0,.1);
 }
 
 h3 {
     align-self: center;
     color: white;
     font-family: 'Palatino', serif;
-    font-size: 29px;
+    font-size: 30px;
     letter-spacing: .2em;
 }
 
